@@ -12,4 +12,4 @@ Following are the details of the attributes in the data:\
 • BMI (BMI) : Body mass index (weight in kg/(height in m)^2).\
 • pedi (Diabetes pedigree function) : Diabetes pedigree function.\
 • Age (Age) : Age of patients (years).\
-• Class (Outcome) : Class variable (0 or 1). 0 indicates not presence of diabetics and 1 indicates presence of diabetics. 268 patients out of 768 are 1, the others are 0.\
+• Class (Outcome) : Class variable (0 or 1). 0 indicates not presence of diabetics and 1 indicates presence of diabetics. 268 patients out of 768 are 1, the others are 0.
