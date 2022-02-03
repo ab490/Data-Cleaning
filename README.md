@@ -13,3 +13,31 @@ Following are the details of the attributes in the data:\
 • pedi (Diabetes pedigree function) : Diabetes pedigree function.\
 • Age (Age) : Age of patients (years).\
 • Class (Outcome) : Class variable (0 or 1). 0 indicates not presence of diabetics and 1 indicates presence of diabetics. 268 patients out of 768 are 1, the others are 0.
+
+I have written a python program (with pandas) to do the following:
+
+1. Plot a graph of the attribute names with the number of missing values in them.
+ 
+2. 
+a. Delete the tuples having equal to or more than one third of attributes with missing values. Print the total number of tuples deleted and also print the row numbers of 
+the deleted tuples. 
+b. Drop the tuples having missing value in the target (class) attribute. Print the total number of tuples deleted and also print the row numbers of the deleted tuples.
+
+3. After step 2, count and print the number of missing values in each attributes. Also find and print the total number of missing values in the file (after the deletion of tuples).
+
+4. Experiments on filling missing values:
+
+a. Replace the missing values by mean of their respective attribute. 
+i. Compute the mean, median, mode and standard deviation for each attributes 
+and compare the same with that of the original file. 
+ii. Calculate the root mean square error (RMSE) between the original and replaced values for each attribute. Plot these RMSE with respect to the attributes.
+
+b. Replace the missing values in each attribute using linear interpolation technique. 
+i. Compute the mean, median, mode and standard deviation for each attributes 
+and compare with that of the original file. 
+ii. Calculate the root mean square error (RMSE) between the original and replaced values for each attributes. Plot these RMSE with respect to the attributes. 
+
+5. Outlier detection:
+i. After replacing the missing values by interpolation method, find the outliers in the attributes “Age” and “BMI”. 
+ii. Replace these outliers by the median of the attribute. Plot the boxplot again and 
+observe the difference with that of the boxplot in 5.i. 
